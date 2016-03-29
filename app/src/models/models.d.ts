@@ -53,4 +53,11 @@ declare module models {
         num_reports: number;
         ups: number;
     }
+    
+    interface IReddit {
+        id: string;
+        author: string;
+        url: string;
+        title: string;
+    }
 }
